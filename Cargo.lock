@@ -106,6 +106,7 @@ checksum = "1505bd5d3d116872e7271a6d4e16d81d0c8570876c8de68093a09ac269d8aac0"
 [[package]]
 name = "atomic_systems"
 version = "0.1.0"
+source = "git+https://github.com/wleter/coupled_chan_rs?branch=dev#c88687fabe3a36b8fe289be44406bc9dceff7e03"
 dependencies = [
  "anyhow",
  "cc_qol_utils",
@@ -240,6 +241,7 @@ dependencies = [
 [[package]]
 name = "cc_calculations"
 version = "0.1.0"
+source = "git+https://github.com/wleter/coupled_chan_rs?branch=dev#c88687fabe3a36b8fe289be44406bc9dceff7e03"
 dependencies = [
  "anyhow",
  "atomic_systems",
@@ -262,6 +264,7 @@ dependencies = [
 [[package]]
 name = "cc_derive"
 version = "0.1.0"
+source = "git+https://github.com/wleter/coupled_chan_rs?branch=dev#c88687fabe3a36b8fe289be44406bc9dceff7e03"
 dependencies = [
  "proc-macro-crate",
  "proc-macro2",
@@ -272,6 +275,7 @@ dependencies = [
 [[package]]
 name = "cc_math_utils"
 version = "0.1.0"
+source = "git+https://github.com/wleter/coupled_chan_rs?branch=dev#c88687fabe3a36b8fe289be44406bc9dceff7e03"
 dependencies = [
  "puruspe",
 ]
@@ -279,26 +283,15 @@ dependencies = [
 [[package]]
 name = "cc_matrix_utils"
 version = "0.1.0"
+source = "git+https://github.com/wleter/coupled_chan_rs?branch=dev#c88687fabe3a36b8fe289be44406bc9dceff7e03"
 dependencies = [
  "faer",
 ]
 
 [[package]]
-name = "cc_molecule_molecule"
-version = "0.1.0"
-dependencies = [
- "anyhow",
- "cc_calculations",
- "cc_math_utils",
- "cc_problems",
- "cc_system",
- "schemars",
- "serde",
-]
-
-[[package]]
 name = "cc_problems"
 version = "0.1.0"
+source = "git+https://github.com/wleter/coupled_chan_rs?branch=dev#c88687fabe3a36b8fe289be44406bc9dceff7e03"
 dependencies = [
  "anyhow",
  "atomic_systems",
@@ -322,6 +315,7 @@ dependencies = [
 [[package]]
 name = "cc_propagator"
 version = "0.1.0"
+source = "git+https://github.com/wleter/coupled_chan_rs?branch=dev#c88687fabe3a36b8fe289be44406bc9dceff7e03"
 dependencies = [
  "cc_math_utils",
  "cc_matrix_utils",
@@ -331,6 +325,7 @@ dependencies = [
 [[package]]
 name = "cc_qol_utils"
 version = "0.1.0"
+source = "git+https://github.com/wleter/coupled_chan_rs?branch=dev#c88687fabe3a36b8fe289be44406bc9dceff7e03"
 dependencies = [
  "anyhow",
  "downcast-rs",
@@ -343,6 +338,7 @@ dependencies = [
 [[package]]
 name = "cc_system"
 version = "0.1.0"
+source = "git+https://github.com/wleter/coupled_chan_rs?branch=dev#c88687fabe3a36b8fe289be44406bc9dceff7e03"
 dependencies = [
  "anyhow",
  "cc_derive",
@@ -472,6 +468,7 @@ checksum = "773648b94d0e5d620f64f280777445740e61fe701025087ec8b57f45c791888b"
 [[package]]
 name = "coupled_chan"
 version = "0.1.0"
+source = "git+https://github.com/wleter/coupled_chan_rs?branch=dev#c88687fabe3a36b8fe289be44406bc9dceff7e03"
 dependencies = [
  "cc_math_utils",
  "cc_matrix_utils",
@@ -485,10 +482,10 @@ dependencies = [
 [[package]]
 name = "coupled_chan_cli"
 version = "0.1.0"
+source = "git+https://github.com/wleter/coupled_chan_rs?branch=dev#c88687fabe3a36b8fe289be44406bc9dceff7e03"
 dependencies = [
  "anyhow",
  "cc_calculations",
- "cc_molecule_molecule",
  "cc_problems",
  "cc_qol_utils",
  "clap",
@@ -1116,6 +1113,7 @@ checksum = "e17592d60ebacc7d5e169f4663c5f84f9161cc90328abcfe8456f41e4dfcb284"
 [[package]]
 name = "hilbert_space"
 version = "0.1.0"
+source = "git+https://github.com/wleter/coupled_chan_rs?branch=dev#c88687fabe3a36b8fe289be44406bc9dceff7e03"
 dependencies = [
  "cc_matrix_utils",
  "downcast-rs",
@@ -2631,6 +2629,7 @@ checksum = "e3a9fe34e3e7a50316060351f37187a3f546bce95496156754b601a5fa71b76e"
 [[package]]
 name = "single_chan"
 version = "0.1.0"
+source = "git+https://github.com/wleter/coupled_chan_rs?branch=dev#c88687fabe3a36b8fe289be44406bc9dceff7e03"
 dependencies = [
  "cc_math_utils",
  "cc_propagator",
@@ -2667,6 +2666,7 @@ dependencies = [
 [[package]]
 name = "spin_algebra"
 version = "0.1.0"
+source = "git+https://github.com/wleter/coupled_chan_rs?branch=dev#c88687fabe3a36b8fe289be44406bc9dceff7e03"
 dependencies = [
  "clebsch-gordan",
  "hilbert_space",
@@ -3093,6 +3093,7 @@ checksum = "81e544489bf3d8ef66c953931f56617f423cd4b5494be343d9b9d3dda037b9a3"
 [[package]]
 name = "unit_systems"
 version = "0.1.0"
+source = "git+https://github.com/wleter/coupled_chan_rs?branch=dev#c88687fabe3a36b8fe289be44406bc9dceff7e03"
 dependencies = [
  "num-rational",
  "num-traits",

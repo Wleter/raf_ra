@@ -4,13 +4,11 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
-# coupled_chan_cli = { git = "https://github.com/wleter/coupled_chan_rs", branch = "dev" } 
-# cc_problems = { git = "https://github.com/wleter/coupled_chan_rs", branch = "dev" } 
-coupled_chan_cli = { path = "../coupled_chan_rs/crates/coupled_chan_cli" } 
-cc_problems = { path = "../coupled_chan_rs/crates/cc_problems" } 
-cc_calculations = { path = "../coupled_chan_rs/crates/cc_calculations" } 
-cc_system = { path = "../coupled_chan_rs/crates/cc_system" } 
-cc_math_utils = { path = "../coupled_chan_rs/crates/cc_math_utils" } 
+coupled_chan_cli = { git = "https://github.com/wleter/coupled_chan_rs", branch = "dev" } 
+cc_problems = { git = "https://github.com/wleter/coupled_chan_rs", branch = "dev" } 
+cc_calculations = { git = "https://github.com/wleter/coupled_chan_rs", branch = "dev" } 
+cc_system = { git = "https://github.com/wleter/coupled_chan_rs", branch = "dev" } 
+cc_math_utils = { git = "https://github.com/wleter/coupled_chan_rs", branch = "dev" } 
 
 anyhow = "1.0"
 serde = { version = "1.0", features = ["derive"] }
