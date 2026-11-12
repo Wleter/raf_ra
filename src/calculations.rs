@@ -152,7 +152,7 @@ impl<P: Problem> SingleCalc for ReactiveScatteringCalc<P> {
         let (g_n, g_0) = regular_solutions(
             &modified.calc_input.propagator,
             boundary_in,
-            r_max,
+            r_min,
             &w_matrix,
         );
         let g_0 = Mat::from_fn(g_0.nrows(), g_0.ncols(), |i, j| c64::from(g_0[(i, j)]));
